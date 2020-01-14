@@ -1,0 +1,432 @@
+@charset "UTF-8";
+/* line 1, ../sass/search1.scss */
+.con {
+  clear: both;
+  zoom: 1;
+}
+
+/* line 6, ../sass/search1.scss */
+#bd_auto {
+  margin: 0 auto;
+  font-family: Arial;
+  margin-top: 15px;
+}
+
+/* line 12, ../sass/search1.scss */
+.top_ad_banner {
+  margin-bottom: 10px;
+}
+
+/* line 16, ../sass/search1.scss */
+.top_ad_banner,
+.storey_one,
+.storey_two,
+.storey_three,
+.storey_four,
+.storey_five,
+.storey_six,
+.storey_seven {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 28, ../sass/search1.scss */
+.top_ad_banner .book_1ad .pic,
+.top_ad_banner .book_1ad .pic img {
+  display: block;
+  width: 1200px;
+  height: 65px;
+}
+
+/* line 35, ../sass/search1.scss */
+body .spacer,
+body .vspacer {
+  display: none;
+}
+
+/* line 40, ../sass/search1.scss */
+.storey_one .storey_one_left,
+.storey_one .storey_one_center {
+  margin-right: 10px;
+}
+
+/* line 45, ../sass/search1.scss */
+.storey_one .storey_one_left,
+.storey_one .storey_one_center,
+.storey_one .storey_one_right {
+  float: left;
+}
+
+/* line 51, ../sass/search1.scss */
+.storey_one .storey_one_left {
+  z-index: 6;
+  position: relative;
+}
+
+/* line 56, ../sass/search1.scss */
+.sidemenu {
+  width: 190px;
+}
+
+/* line 60, ../sass/search1.scss */
+.sidemenu .flq_head {
+  height: 35px;
+  width: 190px;
+  text-align: center;
+  font-size: 18px;
+  background: #487a6f;
+  border-radius: 4px 4px 0 0;
+  line-height: 34px;
+  color: #fff;
+  font-family: "Microsoft Yahei";
+}
+
+/* line 72, ../sass/search1.scss */
+.sidemenu .flq_body {
+  width: 190px;
+  border-top: 2px dotted #487a6f;
+  border-bottom: 1px solid #487a6f;
+  position: relative;
+  height: 878px;
+  background: url(images/home/sidemenu_bg2.png) -20px 0px repeat-y;
+}
+
+/* line 81, ../sass/search1.scss */
+.sidemenu .flq_body .level_one {
+  width: 188px;
+  border: 1px solid #487a6f;
+  border-width: 0 1px;
+}
+
+/* line 87, ../sass/search1.scss */
+.sidemenu .flq_body .level_one dl .primary_dl {
+  width: 170px;
+  border-bottom: 1px dotted #849555;
+  margin-left: 9px;
+  position: relative;
+  overflow: hidden;
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+
+/* line 97, ../sass/search1.scss */
+.sidemenu .flq_body .level_one dl.primary_dl dt {
+  padding-bottom: 3px;
+  font-family: "Microsoft Yahei";
+}
+
+/* line 102, ../sass/search1.scss */
+.sidemenu .flq_body .level_one dl.primary_dl dt span {
+  color: #487a6f;
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px;
+  background: url(../images/sidemenu_bg2.png) 160px 8px no-repeat;
+  font-weight: bold;
+  display: block;
+}
+
+/* line 112, ../sass/search1.scss */
+.sidemenu .flq_body .submenu {
+  position: absolute;
+  left: 189px;
+  top: -1px;
+  width: 590px;
+  border: 1px solid #487a6f;
+  padding: 6px 12px 15px 16px;
+  z-index: 5;
+  box-shadow: -1px 1px 8px #bbb;
+  background: #fff;
+  display: none;
+}
+
+/* line 125, ../sass/search1.scss */
+.sidemenu .flq_body .submenu .eject_left {
+  width: 590px;
+}
+
+/* line 129, ../sass/search1.scss */
+.con:after {
+  content: '.';
+  height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 137, ../sass/search1.scss */
+.sidemenu .flq_body .submenu .eject_left dl.inner_dl {
+  zoom: 1;
+  border-bottom: 1px dotted #d4d4d4;
+  padding: 5px 0;
+}
+
+/* line 143, ../sass/search1.scss */
+.sidemenu .flq_body .submenu .eject_left dl.inner_dl dt {
+  width: 80px;
+  float: left;
+  margin-right: 20px;
+  line-height: 28px;
+  font-size: 12px;
+  text-align: right;
+  font-family: "Microsoft Yahei";
+  color: #367e6f;
+  font-weight: bold;
+}
+
+/* line 155, ../sass/search1.scss */
+dt {
+  display: block;
+}
+
+/* line 159, ../sass/search1.scss */
+.storey_one_center .tab_box_aa {
+  width: 750px;
+  height: 315px;
+  position: relative;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+/* line 167, ../sass/search1.scss */
+.storey_one_center .tab_box_aa .head {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  z-index: 2;
+}
+
+/* line 174, ../sass/search1.scss */
+.storey_one_center .tab_box_aa .head .tab_aa li {
+  width: 21px;
+  height: 21px;
+  line-height: 21px;
+  border-radius: 50%;
+  background: #fff;
+  margin-right: 10px;
+  text-align: center;
+  color: #000;
+  font-family: "Microsoft Yahei";
+  font-size: 14px;
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+
+/* line 190, ../sass/search1.scss */
+.storey_one_center .tab_box_aa .head .tab_aa li.on {
+  background: #ff4848;
+  color: #fff;
+}
+
+/* *****滚动条******* */
+/* line 198, ../sass/search1.scss */
+ul:after,
+.fbox:after,
+.clearfix:after {
+  content: ".";
+  height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 208, ../sass/search1.scss */
+.storey_one_center .tab_box_aa .content {
+  width: 750px;
+  height: 315px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 216, ../sass/search1.scss */
+.storey_one_center .tab_box_aa .content .pic {
+  display: block;
+  width: 750px;
+  height: 315px;
+}
+
+/* line 222, ../sass/search1.scss */
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+/* line 231, ../sass/search1.scss */
+.storey_one_center .tab_box_aa .content img {
+  width: 750px;
+  height: 315px;
+}
+
+/* line 236, ../sass/search1.scss */
+.spacer {
+  clear: both;
+  width: 10%;
+  height: 10px;
+  font-size: 0;
+}
+
+/* line 243, ../sass/search1.scss */
+body .spacer,
+body .vspacer {
+  display: none;
+}
+
+/* ************suoyin1******** */
+/* line 251, ../sass/search1.scss */
+.book_online {
+  width: 750px;
+  overflow: hidden;
+  position: relative;
+  height: 590px;
+}
+
+/* line 258, ../sass/search1.scss */
+.book_online .book_online_title {
+  background: url(../images/new_book.png) no-repeat;
+  height: 43px;
+  width: 750px;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999px;
+}
+
+/* line 267, ../sass/search1.scss */
+.book_online .mix_marquee_tab {
+  position: absolute;
+  left: 337px;
+  top: 580px;
+}
+
+/* line 273, ../sass/search1.scss */
+.book_online .mix_marquee_tab li.current {
+  background-position: 0 0;
+}
+
+/* line 277, ../sass/search1.scss */
+.book_online .mix_marquee_tab li {
+  float: left;
+  width: 10px;
+  height: 10px;
+  font-size: 0;
+  line-height: 10px;
+  margin-right: 10px;
+  background: url(http://img4.ddimg.cn/00363/book_index/diandian_bg2.png) 0 -20px no-repeat;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+/* line 289, ../sass/search1.scss */
+.book_online .over {
+  width: 750px;
+  overflow: hidden;
+  height: 530px;
+  position: relative;
+}
+
+/* line 296, ../sass/search1.scss */
+.book_online .list_aa {
+  width: 10000px;
+  position: absolute;
+  left: 0px;
+}
+
+/* line 302, ../sass/search1.scss */
+.book_online .list_aa li {
+  float: left;
+  width: 750px;
+  overflow: hidden;
+}
+
+/* line 308, ../sass/search1.scss */
+.book_online .product_ul {
+  width: 800px;
+  padding-top: 25px;
+}
+
+/* line 313, ../sass/search1.scss */
+.book_online .product_ul a {
+  text-decoration: none;
+}
+
+/* line 317, ../sass/search1.scss */
+.book_online .product_ul li {
+  width: 150px;
+  margin-right: 47px;
+  margin-bottom: 16px;
+  height: 250px;
+  position: relative;
+  overflow: visible;
+}
+
+/* line 326, ../sass/search1.scss */
+.book_online .product_ul a.img,
+.book_online .product_ul li img {
+  width: 150px;
+  display: block;
+  height: 150px;
+}
+
+/* line 333, ../sass/search1.scss */
+.book_online .product_ul li .name {
+  padding: 7px 20px 0;
+  height: 18px;
+  line-height: 18px;
+  overflow: hidden;
+}
+
+/* line 340, ../sass/search1.scss */
+.book_online .product_ul li .name a,
+.book_online .product_ul li .name a:hover {
+  color: #000;
+  font-size: 12px;
+}
+
+/* line 346, ../sass/search1.scss */
+.book_online .product_ul li .author {
+  padding: 0 20px;
+  height: 24px;
+  line-height: 24px;
+  overflow: hidden;
+  color: #aaa;
+}
+
+/* line 354, ../sass/search1.scss */
+.book_online .product_ul li .price {
+  padding-left: 20px;
+  line-height: 16px;
+  overflow: hidden;
+  font-family: "Arial";
+  font-size: 14px;
+  position: relative;
+  height: 36px;
+}
+
+/* line 364, ../sass/search1.scss */
+.book_online .product_ul li .price .rob {
+  color: #c30;
+  float: left;
+  overflow: hidden;
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+/* line 372, ../sass/search1.scss */
+.book_online .product_ul li .price .price_r {
+  color: #aaa;
+  text-decoration: line-through;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 379, ../sass/search1.scss */
+.book_online .product_ul li .ebookprice_n {
+  position: absolute;
+  left: 20px;
+  top: 16px;
+  display: inline-block;
+  font: 12px Arial;
+  padding: 4px 0 0 0;
+  color: #787878;
+}

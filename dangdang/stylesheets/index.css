@@ -1,83 +1,934 @@
-/*
-Error: Invalid CSS after "    position: ": expected expression (e.g. 1px, bold), was ";"
-        on line 133 of C:/day 34/src/dangdang/sass/pageselect.scss
-        from line 11 of C:/day 34/src/dangdang/sass/index.scss
+@charset "UTF-8";
+/* line 5, ../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-128: 
-129: .pageselect .bannerright .shu .meitu li a {
-130:     width: 120px;
-131:     height: 120px;
-132:     display: inline-block;
-133:     position: ;
-134: }
-135: 
-136: .pageselect .bannerright .shu .meitu li a img {
-137:     width: 100%;
-138:     height: 100%;
+/* line 22, ../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
 
-Backtrace:
-C:/day 34/src/dangdang/sass/pageselect.scss:133
-C:/day 34/src/dangdang/sass/index.scss:11
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/script/lexer.rb:229:in `expected!'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/script/parser.rb:710:in `assert_expr'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/script/parser.rb:75:in `parse'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1063:in `sass_script'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:909:in `value!'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:778:in `block in try_declaration'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1183:in `rethrow'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:791:in `try_declaration'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:720:in `declaration_or_ruleset'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:658:in `ruleset'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/engine.rb:315:in `to_tree'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"    position: \": expected expression (e.g. 1px, bold), was \";\"\A         on line 133 of C:/day 34/src/dangdang/sass/pageselect.scss\A         from line 11 of C:/day 34/src/dangdang/sass/index.scss\A \A 128: \A 129: .pageselect .bannerright .shu .meitu li a {\A 130:     width: 120px;\A 131:     height: 120px;\A 132:     display: inline-block;\A 133:     position: ;\A 134: }\A 135: \A 136: .pageselect .bannerright .shu .meitu li a img {\A 137:     width: 100%;\A 138:     height: 100%;"; }
+/* line 24, ../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/index.scss */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 1, ../sass/header.scss */
+.header {
+  width: 100%;
+  height: 34px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background: #f9f9f9;
+}
+
+/* line 10, ../sass/header.scss */
+section {
+  width: 1200px;
+  height: 34px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -600px;
+  font-size: 12px;
+}
+
+/* line 20, ../sass/header.scss */
+.header .headerleft {
+  float: left;
+  line-height: 34px;
+}
+
+/* line 25, ../sass/header.scss */
+.header section .headerleft > span {
+  width: 86px;
+  height: 34px;
+}
+
+/* line 30, ../sass/header.scss */
+.header section .headerleft > span ul {
+  position: absolute;
+  top: 27px;
+  left: 0px;
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+  padding: 10px 0 10px 10px;
+  width: 298px;
+  display: none;
+}
+
+/* line 41, ../sass/header.scss */
+.header section .headerleft > span ul li {
+  background: none;
+  float: left;
+  width: 48px;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 0 0 10px;
+  position: relative;
+  z-index: 100;
+}
+
+/* line 52, ../sass/header.scss */
+.header section .headerleft > span:hover ul {
+  display: block;
+}
+
+/* line 56, ../sass/header.scss */
+.header .headerright {
+  float: right;
+  line-height: 34px;
+}
+
+/* line 61, ../sass/header.scss */
+.header .headerright .second {
+  float: right;
+}
+
+/* line 65, ../sass/header.scss */
+.header .headerright .first {
+  float: left;
+}
+
+/* line 69, ../sass/header.scss */
+.header .headerright .first > span > a {
+  text-decoration: none;
+}
+
+/* line 73, ../sass/header.scss */
+.header .headerright .first > span > a > span {
+  color: red;
+}
+
+/* line 77, ../sass/header.scss */
+.header .headerright .second a:hover {
+  color: red;
+}
+
+/* line 2, ../sass/searcharea.scss */
+.searcharea {
+  width: 1200px;
+  height: 80px;
+  background: url(../images/dang.png) no-repeat left center;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 10, ../sass/searcharea.scss */
+.searcharea .search {
+  position: absolute;
+  margin-top: 20px;
+  height: 48px;
+  z-index: 9999;
+  left: 362px;
+  top: 0;
+}
+
+/* line 19, ../sass/searcharea.scss */
+.searcharea .search .inputtext {
+  width: 398px;
+  height: 18px;
+  border: 2px solid #ff2832;
+  border-right: none;
+  padding: 9px 0 9px 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  color: #323232;
+  font: 12px;
+  outline: 0;
+  background: none;
+}
+
+/* line 35, ../sass/searcharea.scss */
+.searcharea .search .carlistarea {
+  right: 88px;
+  width: 107px;
+  border-color: #ff2832;
+  background: url(http://img62.ddimg.cn/upload_img/00459/home/icon_cart.png) 5px 0 no-repeat #ff2832;
+}
+
+/* line 42, ../sass/searcharea.scss */
+.searcharea .search .tupian {
+  position: absolute;
+  top: 0;
+  left: 518px;
+  width: 50px;
+  height: 40px;
+}
+
+/* line 50, ../sass/searcharea.scss */
+.searcharea .search .tupian img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 55, ../sass/searcharea.scss */
+.searcharea .search .inputtext .input {
+  font-size: 12px;
+  float: left;
+}
+
+/* line 60, ../sass/searcharea.scss */
+.searcharea .search .inputtext .choose {
+  position: absolute;
+  top: -2px;
+  left: 408px;
+  border: 2px solid #ff2832;
+  border-left: 0px solid #dedede;
+  width: 92px;
+  height: 36px;
+  font: 16px;
+  color: #969696;
+  padding: 0 0 0 14px;
+  cursor: pointer;
+  background-color: #f6f6f6;
+}
+
+/* line 75, ../sass/searcharea.scss */
+.searcharea .search .inputtext .choose:hover ul {
+  display: block;
+}
+
+/* line 79, ../sass/searcharea.scss */
+.searcharea .search .inputtext .choose ul {
+  width: 106px;
+  height: 288px;
+  border: 1px solid #dedede;
+  position: absolute;
+  top: 36px;
+  left: 0px;
+  background-color: #fff;
+  display: none;
+}
+
+/* line 90, ../sass/searcharea.scss */
+.searcharea .search .inputtext .choose ul li {
+  width: 100px;
+  padding: 0 5px 0 5px;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+/* line 97, ../sass/searcharea.scss */
+.searcharea .hottext {
+  font-size: 12px;
+  position: absolute;
+  top: 65px;
+  left: 362px;
+  color: #969696;
+  width: 585px;
+  line-height: 20px;
+  z-index: 6555;
+}
+
+/* line 108, ../sass/searcharea.scss */
+.searcharea .hottext span {
+  color: #969696;
+}
+
+/* line 112, ../sass/searcharea.scss */
+.searcharea .hottext .hotleft {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* line 118, ../sass/searcharea.scss */
+.searcharea .hottext .hotright {
+  position: absolute;
+  top: 0px;
+  left: 518px;
+}
+
+/* line 124, ../sass/searcharea.scss */
+.searcharea .hottext a {
+  text-decoration: none;
+}
+
+/* line 128, ../sass/searcharea.scss */
+.searcharea .hottext a:hover {
+  color: red;
+  text-decoration: dashed;
+}
+
+/* line 133, ../sass/searcharea.scss */
+.searcharea .cartlistarea {
+  position: absolute;
+  top: 20px;
+  left: 1050px;
+}
+
+/* line 139, ../sass/searcharea.scss */
+.searcharea .cartlistarea .gouwuche {
+  height: 40px;
+  width: 107px;
+}
+
+/* line 144, ../sass/searcharea.scss */
+.searcharea .cartlistarea .buy {
+  height: 40px;
+  width: 107px;
+  position: relative;
+  top: -40px;
+  left: 107px;
+}
+
+/* line 152, ../sass/searcharea.scss */
+.searcharea .cartlistarea img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1, ../sass/nav.scss */
+.navheader {
+  font-weight: bold;
+  width: 100%;
+  height: 40px;
+  border-bottom: 3px solid #ff2832;
+  text-align: center;
+}
+
+/* line 9, ../sass/nav.scss */
+.navheader > ul {
+  width: 1200px;
+  position: relative;
+  top: 0px;
+  left: 50%;
+  margin-left: -600px;
+}
+
+/* line 17, ../sass/nav.scss */
+.navheader > ul .li1 {
+  color: #323232;
+  font: 14px;
+  text-decoration: none;
+  padding: 0 15px;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+/* line 27, ../sass/nav.scss */
+.navheader > ul .all {
+  width: 200px;
+  height: 40px;
+  display: inline-block;
+  background: #ff2832;
+  position: relative;
+  left: -63px;
+  top: 0px;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* line 40, ../sass/nav.scss */
+.footer {
+  background: #f5f5f5;
+  text-align: center;
+}
+
+/* line 45, ../sass/nav.scss */
+.footer ul {
+  height: 31px;
+  margin: 0 auto;
+  overflow: hidden;
+  line-height: 30px;
+  width: 1200px;
+}
+
+/* line 53, ../sass/nav.scss */
+.footer ul li {
+  float: left;
+  padding: 0 15px;
+  margin-left: -1px;
+  white-space: nowrap;
+  background: url(http://img4.ddimg.cn/header/header2014/sub_line_bg.png) right center no-repeat;
+}
+
+/* line 61, ../sass/nav.scss */
+.footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 66, ../sass/nav.scss */
+.footer ul li:hover a {
+  color: red;
+}
+
+/* line 1, ../sass/search1.scss */
+.con {
+  clear: both;
+  zoom: 1;
+}
+
+/* line 6, ../sass/search1.scss */
+#bd_auto {
+  margin: 0 auto;
+  font-family: Arial;
+  margin-top: 15px;
+}
+
+/* line 12, ../sass/search1.scss */
+.top_ad_banner {
+  margin-bottom: 10px;
+}
+
+/* line 16, ../sass/search1.scss */
+.top_ad_banner,
+.storey_one,
+.storey_two,
+.storey_three,
+.storey_four,
+.storey_five,
+.storey_six,
+.storey_seven {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 28, ../sass/search1.scss */
+.top_ad_banner .book_1ad .pic,
+.top_ad_banner .book_1ad .pic img {
+  display: block;
+  width: 1200px;
+  height: 65px;
+}
+
+/* line 35, ../sass/search1.scss */
+body .spacer,
+body .vspacer {
+  display: none;
+}
+
+/* line 40, ../sass/search1.scss */
+.storey_one .storey_one_left,
+.storey_one .storey_one_center {
+  margin-right: 10px;
+}
+
+/* line 45, ../sass/search1.scss */
+.storey_one .storey_one_left,
+.storey_one .storey_one_center,
+.storey_one .storey_one_right {
+  float: left;
+}
+
+/* line 51, ../sass/search1.scss */
+.storey_one .storey_one_left {
+  z-index: 6;
+  position: relative;
+}
+
+/* line 56, ../sass/search1.scss */
+.sidemenu {
+  width: 190px;
+}
+
+/* line 60, ../sass/search1.scss */
+.sidemenu .flq_head {
+  height: 35px;
+  width: 190px;
+  text-align: center;
+  font-size: 18px;
+  background: #487a6f;
+  border-radius: 4px 4px 0 0;
+  line-height: 34px;
+  color: #fff;
+  font-family: "Microsoft Yahei";
+}
+
+/* line 72, ../sass/search1.scss */
+.sidemenu .flq_body {
+  width: 190px;
+  border-top: 2px dotted #487a6f;
+  border-bottom: 1px solid #487a6f;
+  position: relative;
+  height: 878px;
+  background: url(images/home/sidemenu_bg2.png) -20px 0px repeat-y;
+}
+
+/* line 81, ../sass/search1.scss */
+.sidemenu .flq_body .level_one {
+  width: 188px;
+  border: 1px solid #487a6f;
+  border-width: 0 1px;
+}
+
+/* line 87, ../sass/search1.scss */
+.sidemenu .flq_body .level_one dl .primary_dl {
+  width: 170px;
+  border-bottom: 1px dotted #849555;
+  margin-left: 9px;
+  position: relative;
+  overflow: hidden;
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+
+/* line 97, ../sass/search1.scss */
+.sidemenu .flq_body .level_one dl.primary_dl dt {
+  padding-bottom: 3px;
+  font-family: "Microsoft Yahei";
+}
+
+/* line 102, ../sass/search1.scss */
+.sidemenu .flq_body .level_one dl.primary_dl dt span {
+  color: #487a6f;
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px;
+  background: url(../images/sidemenu_bg2.png) 160px 8px no-repeat;
+  font-weight: bold;
+  display: block;
+}
+
+/* line 112, ../sass/search1.scss */
+.sidemenu .flq_body .submenu {
+  position: absolute;
+  left: 189px;
+  top: -1px;
+  width: 590px;
+  border: 1px solid #487a6f;
+  padding: 6px 12px 15px 16px;
+  z-index: 5;
+  box-shadow: -1px 1px 8px #bbb;
+  background: #fff;
+  display: none;
+}
+
+/* line 125, ../sass/search1.scss */
+.sidemenu .flq_body .submenu .eject_left {
+  width: 590px;
+}
+
+/* line 129, ../sass/search1.scss */
+.con:after {
+  content: '.';
+  height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 137, ../sass/search1.scss */
+.sidemenu .flq_body .submenu .eject_left dl.inner_dl {
+  zoom: 1;
+  border-bottom: 1px dotted #d4d4d4;
+  padding: 5px 0;
+}
+
+/* line 143, ../sass/search1.scss */
+.sidemenu .flq_body .submenu .eject_left dl.inner_dl dt {
+  width: 80px;
+  float: left;
+  margin-right: 20px;
+  line-height: 28px;
+  font-size: 12px;
+  text-align: right;
+  font-family: "Microsoft Yahei";
+  color: #367e6f;
+  font-weight: bold;
+}
+
+/* line 155, ../sass/search1.scss */
+dt {
+  display: block;
+}
+
+/* line 159, ../sass/search1.scss */
+.storey_one_center .tab_box_aa {
+  width: 750px;
+  height: 315px;
+  position: relative;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+/* line 167, ../sass/search1.scss */
+.storey_one_center .tab_box_aa .head {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  z-index: 2;
+}
+
+/* line 174, ../sass/search1.scss */
+.storey_one_center .tab_box_aa .head .tab_aa li {
+  width: 21px;
+  height: 21px;
+  line-height: 21px;
+  border-radius: 50%;
+  background: #fff;
+  margin-right: 10px;
+  text-align: center;
+  color: #000;
+  font-family: "Microsoft Yahei";
+  font-size: 14px;
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+
+/* line 190, ../sass/search1.scss */
+.storey_one_center .tab_box_aa .head .tab_aa li.on {
+  background: #ff4848;
+  color: #fff;
+}
+
+/* *****滚动条******* */
+/* line 198, ../sass/search1.scss */
+ul:after,
+.fbox:after,
+.clearfix:after {
+  content: ".";
+  height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 208, ../sass/search1.scss */
+.storey_one_center .tab_box_aa .content {
+  width: 750px;
+  height: 315px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 216, ../sass/search1.scss */
+.storey_one_center .tab_box_aa .content .pic {
+  display: block;
+  width: 750px;
+  height: 315px;
+}
+
+/* line 222, ../sass/search1.scss */
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+/* line 231, ../sass/search1.scss */
+.storey_one_center .tab_box_aa .content img {
+  width: 750px;
+  height: 315px;
+}
+
+/* line 236, ../sass/search1.scss */
+.spacer {
+  clear: both;
+  width: 10%;
+  height: 10px;
+  font-size: 0;
+}
+
+/* line 243, ../sass/search1.scss */
+body .spacer,
+body .vspacer {
+  display: none;
+}
+
+/* ************suoyin1******** */
+/* line 251, ../sass/search1.scss */
+.book_online {
+  width: 750px;
+  overflow: hidden;
+  position: relative;
+  height: 590px;
+}
+
+/* line 258, ../sass/search1.scss */
+.book_online .book_online_title {
+  background: url(../images/new_book.png) no-repeat;
+  height: 43px;
+  width: 750px;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999px;
+}
+
+/* line 267, ../sass/search1.scss */
+.book_online .mix_marquee_tab {
+  position: absolute;
+  left: 337px;
+  top: 580px;
+}
+
+/* line 273, ../sass/search1.scss */
+.book_online .mix_marquee_tab li.current {
+  background-position: 0 0;
+}
+
+/* line 277, ../sass/search1.scss */
+.book_online .mix_marquee_tab li {
+  float: left;
+  width: 10px;
+  height: 10px;
+  font-size: 0;
+  line-height: 10px;
+  margin-right: 10px;
+  background: url(http://img4.ddimg.cn/00363/book_index/diandian_bg2.png) 0 -20px no-repeat;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+/* line 289, ../sass/search1.scss */
+.book_online .over {
+  width: 750px;
+  overflow: hidden;
+  height: 530px;
+  position: relative;
+}
+
+/* line 296, ../sass/search1.scss */
+.book_online .list_aa {
+  width: 10000px;
+  position: absolute;
+  left: 0px;
+}
+
+/* line 302, ../sass/search1.scss */
+.book_online .list_aa li {
+  float: left;
+  width: 750px;
+  overflow: hidden;
+}
+
+/* line 308, ../sass/search1.scss */
+.book_online .product_ul {
+  width: 800px;
+  padding-top: 25px;
+}
+
+/* line 313, ../sass/search1.scss */
+.book_online .product_ul a {
+  text-decoration: none;
+}
+
+/* line 317, ../sass/search1.scss */
+.book_online .product_ul li {
+  width: 150px;
+  margin-right: 47px;
+  margin-bottom: 16px;
+  height: 250px;
+  position: relative;
+  overflow: visible;
+}
+
+/* line 326, ../sass/search1.scss */
+.book_online .product_ul a.img,
+.book_online .product_ul li img {
+  width: 150px;
+  display: block;
+  height: 150px;
+}
+
+/* line 333, ../sass/search1.scss */
+.book_online .product_ul li .name {
+  padding: 7px 20px 0;
+  height: 18px;
+  line-height: 18px;
+  overflow: hidden;
+}
+
+/* line 340, ../sass/search1.scss */
+.book_online .product_ul li .name a,
+.book_online .product_ul li .name a:hover {
+  color: #000;
+  font-size: 12px;
+}
+
+/* line 346, ../sass/search1.scss */
+.book_online .product_ul li .author {
+  padding: 0 20px;
+  height: 24px;
+  line-height: 24px;
+  overflow: hidden;
+  color: #aaa;
+}
+
+/* line 354, ../sass/search1.scss */
+.book_online .product_ul li .price {
+  padding-left: 20px;
+  line-height: 16px;
+  overflow: hidden;
+  font-family: "Arial";
+  font-size: 14px;
+  position: relative;
+  height: 36px;
+}
+
+/* line 364, ../sass/search1.scss */
+.book_online .product_ul li .price .rob {
+  color: #c30;
+  float: left;
+  overflow: hidden;
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+/* line 372, ../sass/search1.scss */
+.book_online .product_ul li .price .price_r {
+  color: #aaa;
+  text-decoration: line-through;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 379, ../sass/search1.scss */
+.book_online .product_ul li .ebookprice_n {
+  position: absolute;
+  left: 20px;
+  top: 16px;
+  display: inline-block;
+  font: 12px Arial;
+  padding: 4px 0 0 0;
+  color: #787878;
+}
