@@ -1,0 +1,155 @@
+$zuixiaotext:12px;
+.searcharea {
+    width: 1200px;
+    height: 80px;
+    background: url(../images/dang.png) no-repeat left center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.searcharea .search {
+    position: absolute;
+    margin-top: 20px;
+    height: 48px;
+    z-index: 9999;
+    left: 362px;
+    top: 0;
+}
+
+.searcharea .search .inputtext {
+    width: 398px;
+    height: 18px;
+    border: 2px solid #ff2832;
+    border-right: none;
+    padding: 9px 0 9px 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    color: #323232;
+    font: 12px;
+    outline: 0;
+    background: none;
+}
+
+.searcharea .search .carlistarea {
+    right: 88px;
+    width: 107px;
+    border-color: #ff2832;
+    background: url(http://img62.ddimg.cn/upload_img/00459/home/icon_cart.png) 5px 0 no-repeat #ff2832;
+}
+
+.searcharea .search .tupian {
+    position: absolute;
+    top: 0;
+    left: 518px;
+    width: 50px;
+    height: 40px;
+}
+
+.searcharea .search .tupian img {
+    width: 100%;
+    height: 100%;
+}
+
+.searcharea .search .inputtext .input {
+    font-size: 12px;
+    float: left;
+}
+
+.searcharea .search .inputtext .choose {
+    position: absolute;
+    top: -2px;
+    left: 408px;
+    border: 2px solid #ff2832;
+    border-left: 0px solid #dedede;
+    width: 92px;
+    height: 36px;
+    font: 16px;
+    color: #969696;
+    padding: 0 0 0 14px;
+    cursor: pointer;
+    background-color: #f6f6f6;
+}
+
+.searcharea .search .inputtext .choose:hover ul {
+    display: block;
+}
+
+.searcharea .search .inputtext .choose ul {
+    width: 106px;
+    height: 288px;
+    border: 1px solid #dedede;
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    background-color: #fff;
+    display: none;
+}
+
+.searcharea .search .inputtext .choose ul li {
+    width: 100px;
+    padding: 0 5px 0 5px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.searcharea .hottext {
+    font-size: $zuixiaotext;
+    position: absolute;
+    top: 65px;
+    left: 362px;
+    color: #969696;
+    width: 585px;
+    line-height: 20px;
+    z-index: 6555;
+}
+
+.searcharea .hottext span {
+    color: #969696;
+}
+
+.searcharea .hottext .hotleft {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.searcharea .hottext .hotright {
+    position: absolute;
+    top: 0px;
+    left: 518px;
+}
+
+.searcharea .hottext a {
+    text-decoration: none;
+}
+
+.searcharea .hottext a:hover {
+    color: red;
+    text-decoration: dashed;
+}
+
+.searcharea .cartlistarea {
+    position: absolute;
+    top: 20px;
+    left: 1050px;
+}
+
+.searcharea .cartlistarea .gouwuche {
+    height: 40px;
+    width: 107px;
+}
+
+.searcharea .cartlistarea .buy {
+    height: 40px;
+    width: 107px;
+    position: relative;
+    top: -40px;
+    left: 107px;
+}
+
+.searcharea .cartlistarea img {
+    width: 100%;
+    height: 100%;
+}

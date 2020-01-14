@@ -1,0 +1,11 @@
+@charset "utf-8"; //设置中文编码
+@import "compass/reset";
+$zuixiaotext:12px;
+body {
+    text-align: center;
+}
+
+@import"header";
+@import"searcharea";
+@import"nav";
+@import"pageselect";

@@ -1,0 +1,175 @@
+/* line 2, ../sass/searcharea.scss */
+.searcharea {
+  width: 1200px;
+  height: 80px;
+  background: url(../images/dang.png) no-repeat left center;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 10, ../sass/searcharea.scss */
+.searcharea .search {
+  position: absolute;
+  margin-top: 20px;
+  height: 48px;
+  z-index: 9999;
+  left: 362px;
+  top: 0;
+}
+
+/* line 19, ../sass/searcharea.scss */
+.searcharea .search .inputtext {
+  width: 398px;
+  height: 18px;
+  border: 2px solid #ff2832;
+  border-right: none;
+  padding: 9px 0 9px 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  color: #323232;
+  font: 12px;
+  outline: 0;
+  background: none;
+}
+
+/* line 35, ../sass/searcharea.scss */
+.searcharea .search .carlistarea {
+  right: 88px;
+  width: 107px;
+  border-color: #ff2832;
+  background: url(http://img62.ddimg.cn/upload_img/00459/home/icon_cart.png) 5px 0 no-repeat #ff2832;
+}
+
+/* line 42, ../sass/searcharea.scss */
+.searcharea .search .tupian {
+  position: absolute;
+  top: 0;
+  left: 518px;
+  width: 50px;
+  height: 40px;
+}
+
+/* line 50, ../sass/searcharea.scss */
+.searcharea .search .tupian img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 55, ../sass/searcharea.scss */
+.searcharea .search .inputtext .input {
+  font-size: 12px;
+  float: left;
+}
+
+/* line 60, ../sass/searcharea.scss */
+.searcharea .search .inputtext .choose {
+  position: absolute;
+  top: -2px;
+  left: 408px;
+  border: 2px solid #ff2832;
+  border-left: 0px solid #dedede;
+  width: 92px;
+  height: 36px;
+  font: 16px;
+  color: #969696;
+  padding: 0 0 0 14px;
+  cursor: pointer;
+  background-color: #f6f6f6;
+}
+
+/* line 75, ../sass/searcharea.scss */
+.searcharea .search .inputtext .choose:hover ul {
+  display: block;
+}
+
+/* line 79, ../sass/searcharea.scss */
+.searcharea .search .inputtext .choose ul {
+  width: 106px;
+  height: 288px;
+  border: 1px solid #dedede;
+  position: absolute;
+  top: 36px;
+  left: 0px;
+  background-color: #fff;
+  display: none;
+}
+
+/* line 90, ../sass/searcharea.scss */
+.searcharea .search .inputtext .choose ul li {
+  width: 100px;
+  padding: 0 5px 0 5px;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+/* line 97, ../sass/searcharea.scss */
+.searcharea .hottext {
+  font-size: 12px;
+  position: absolute;
+  top: 65px;
+  left: 362px;
+  color: #969696;
+  width: 585px;
+  line-height: 20px;
+  z-index: 6555;
+}
+
+/* line 108, ../sass/searcharea.scss */
+.searcharea .hottext span {
+  color: #969696;
+}
+
+/* line 112, ../sass/searcharea.scss */
+.searcharea .hottext .hotleft {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* line 118, ../sass/searcharea.scss */
+.searcharea .hottext .hotright {
+  position: absolute;
+  top: 0px;
+  left: 518px;
+}
+
+/* line 124, ../sass/searcharea.scss */
+.searcharea .hottext a {
+  text-decoration: none;
+}
+
+/* line 128, ../sass/searcharea.scss */
+.searcharea .hottext a:hover {
+  color: red;
+  text-decoration: dashed;
+}
+
+/* line 133, ../sass/searcharea.scss */
+.searcharea .cartlistarea {
+  position: absolute;
+  top: 20px;
+  left: 1050px;
+}
+
+/* line 139, ../sass/searcharea.scss */
+.searcharea .cartlistarea .gouwuche {
+  height: 40px;
+  width: 107px;
+}
+
+/* line 144, ../sass/searcharea.scss */
+.searcharea .cartlistarea .buy {
+  height: 40px;
+  width: 107px;
+  position: relative;
+  top: -40px;
+  left: 107px;
+}
+
+/* line 152, ../sass/searcharea.scss */
+.searcharea .cartlistarea img {
+  width: 100%;
+  height: 100%;
+}
