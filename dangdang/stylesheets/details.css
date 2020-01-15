@@ -1,0 +1,1587 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 34px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: #f9f9f9;
+}
+
+
+/* line 10, ../sass/header.scss */
+
+section {
+    width: 1200px;
+    height: 34px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+    font-size: 12px;
+}
+
+
+/* line 20, ../sass/header.scss */
+
+.header .headerleft {
+    float: left;
+    line-height: 34px;
+}
+
+
+/* line 25, ../sass/header.scss */
+
+.header section .headerleft>span {
+    width: 86px;
+    height: 34px;
+}
+
+
+/* line 30, ../sass/header.scss */
+
+.header section .headerleft>span ul {
+    position: absolute;
+    top: 27px;
+    left: 0px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    padding: 10px 0 10px 10px;
+    width: 298px;
+    display: none;
+}
+
+
+/* line 41, ../sass/header.scss */
+
+.header section .headerleft>span ul li {
+    background: none;
+    float: left;
+    width: 48px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 0 0 10px;
+    position: relative;
+    z-index: 100;
+}
+
+
+/* line 52, ../sass/header.scss */
+
+.header section .headerleft>span:hover ul {
+    display: block;
+}
+
+
+/* line 56, ../sass/header.scss */
+
+.header .headerright {
+    float: right;
+    line-height: 34px;
+}
+
+
+/* line 61, ../sass/header.scss */
+
+.header .headerright .second {
+    float: right;
+}
+
+
+/* line 65, ../sass/header.scss */
+
+.header .headerright .first {
+    float: left;
+}
+
+
+/* line 69, ../sass/header.scss */
+
+.header .headerright .first>span>a {
+    text-decoration: none;
+}
+
+
+/* line 73, ../sass/header.scss */
+
+.header .headerright .first>span>a>span {
+    color: red;
+}
+
+
+/* line 77, ../sass/header.scss */
+
+.header .headerright .second a:hover {
+    color: red;
+}
+
+.searcharea {
+    width: 1200px;
+    height: 80px;
+    background: url(../images/dang.png) no-repeat left center;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/* line 10, ../sass/searcharea.scss */
+
+.searcharea .search {
+    position: absolute;
+    margin-top: 20px;
+    height: 48px;
+    z-index: 9999;
+    left: 362px;
+    top: 0;
+}
+
+
+/* line 19, ../sass/searcharea.scss */
+
+.searcharea .search .inputtext {
+    width: 398px;
+    height: 18px;
+    border: 2px solid #ff2832;
+    border-right: none;
+    padding: 9px 0 9px 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    color: #323232;
+    font: 12px;
+    outline: 0;
+    background: none;
+}
+
+
+/* line 35, ../sass/searcharea.scss */
+
+.searcharea .search .carlistarea {
+    right: 88px;
+    width: 107px;
+    border-color: #ff2832;
+    background: url(http://img62.ddimg.cn/upload_img/00459/home/icon_cart.png) 5px 0 no-repeat #ff2832;
+}
+
+
+/* line 42, ../sass/searcharea.scss */
+
+.searcharea .search .tupian {
+    position: absolute;
+    top: 0;
+    left: 518px;
+    width: 50px;
+    height: 40px;
+}
+
+
+/* line 50, ../sass/searcharea.scss */
+
+.searcharea .search .tupian img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* line 55, ../sass/searcharea.scss */
+
+.searcharea .search .inputtext .input {
+    font-size: 12px;
+    float: left;
+}
+
+
+/* line 60, ../sass/searcharea.scss */
+
+.searcharea .search .inputtext .choose {
+    position: absolute;
+    top: -2px;
+    left: 408px;
+    border: 2px solid #ff2832;
+    border-left: 0px solid #dedede;
+    width: 92px;
+    height: 36px;
+    font: 16px;
+    color: #969696;
+    padding: 0 0 0 14px;
+    cursor: pointer;
+    background-color: #f6f6f6;
+}
+
+
+/* line 75, ../sass/searcharea.scss */
+
+.searcharea .search .inputtext .choose:hover ul {
+    display: block;
+}
+
+
+/* line 79, ../sass/searcharea.scss */
+
+.searcharea .search .inputtext .choose ul {
+    width: 106px;
+    height: 288px;
+    border: 1px solid #dedede;
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    background-color: #fff;
+    display: none;
+}
+
+
+/* line 90, ../sass/searcharea.scss */
+
+.searcharea .search .inputtext .choose ul li {
+    width: 100px;
+    padding: 0 5px 0 5px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+
+/* line 97, ../sass/searcharea.scss */
+
+.searcharea .hottext {
+    font-size: 12px;
+    position: absolute;
+    top: 65px;
+    left: 362px;
+    color: #969696;
+    width: 585px;
+    line-height: 20px;
+    z-index: 6555;
+}
+
+
+/* line 108, ../sass/searcharea.scss */
+
+.searcharea .hottext span {
+    color: #969696;
+}
+
+
+/* line 112, ../sass/searcharea.scss */
+
+.searcharea .hottext .hotleft {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+/* line 118, ../sass/searcharea.scss */
+
+.searcharea .hottext .hotright {
+    position: absolute;
+    top: 0px;
+    left: 518px;
+}
+
+
+/* line 124, ../sass/searcharea.scss */
+
+.searcharea .hottext a {
+    text-decoration: none;
+}
+
+
+/* line 128, ../sass/searcharea.scss */
+
+.searcharea .hottext a:hover {
+    color: red;
+    text-decoration: dashed;
+}
+
+
+/* line 133, ../sass/searcharea.scss */
+
+.searcharea .cartlistarea {
+    position: absolute;
+    top: 20px;
+    left: 1050px;
+}
+
+
+/* line 139, ../sass/searcharea.scss */
+
+.searcharea .cartlistarea .gouwuche {
+    height: 40px;
+    width: 107px;
+}
+
+
+/* line 144, ../sass/searcharea.scss */
+
+.searcharea .cartlistarea .buy {
+    height: 40px;
+    width: 107px;
+    position: relative;
+    top: -40px;
+    left: 107px;
+}
+
+
+/* line 152, ../sass/searcharea.scss */
+
+.searcharea .cartlistarea img {
+    width: 100%;
+    height: 100%;
+}
+
+.navheader {
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    border-bottom: 3px solid #ff2832;
+    text-align: center;
+}
+
+
+/* line 9, ../sass/nav.scss */
+
+.navheader>ul {
+    width: 1200px;
+    position: relative;
+    top: 0px;
+    left: 50%;
+    margin-left: -600px;
+}
+
+
+/* line 17, ../sass/nav.scss */
+
+.navheader>ul .li1 {
+    color: #323232;
+    font: 14px;
+    text-decoration: none;
+    padding: 0 15px;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+
+/* line 27, ../sass/nav.scss */
+
+.navheader>ul .all {
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    background: #ff2832;
+    position: relative;
+    left: -63px;
+    top: 0px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+/* line 40, ../sass/nav.scss */
+
+.footer {
+    background: #f5f5f5;
+    text-align: center;
+}
+
+
+/* line 45, ../sass/nav.scss */
+
+.footer ul {
+    height: 31px;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 30px;
+    width: 1200px;
+}
+
+
+/* line 53, ../sass/nav.scss */
+
+.footer ul li {
+    float: left;
+    padding: 0 15px;
+    margin-left: -1px;
+    white-space: nowrap;
+    background: url(http://img4.ddimg.cn/header/header2014/sub_line_bg.png) right center no-repeat;
+}
+
+
+/* line 61, ../sass/nav.scss */
+
+.footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* line 66, ../sass/nav.scss */
+
+.footer ul li:hover a {
+    color: red;
+}
+
+
+/* **************************详情界面************************************************ */
+
+.product_wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    font: 12px "Hiragino Sans GB", Verdana, Simsun;
+    background-color: #fff;
+}
+
+.topbanner_all div {
+    height: 63px;
+}
+
+.product_wrapper a {
+    text-decoration: none;
+}
+
+.breadcrumb {
+    color: #646464;
+    font: 12px/40px simsun;
+    height: 40px;
+    padding-bottom: 8px;
+    position: relative;
+    z-index: 10000;
+}
+
+.breadcrumb a.domain {
+    font: 14px/40px "Microsoft Yahei";
+}
+
+.breadcrumb a,
+.breadcrumb a:hover {
+    color: #646464;
+    float: left;
+}
+
+.breadcrumb span.gt {
+    color: #646464;
+    margin: 1px 6px 0;
+}
+
+.breadcrumb span {
+    color: #323232;
+    float: left;
+}
+
+
+/* ********************展示块**************************************** */
+
+.clearfix {
+    zoom: 1;
+}
+
+.product_main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.product_wrapper a {
+    text-decoration: none;
+}
+
+.product_main .pic_info {
+    float: left;
+    width: 320px;
+    padding: 0 20px 30px 0;
+}
+
+.product_main .pic_info .pic {
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 7777;
+}
+
+.product_main .pic_info .pic .img,
+.product_main .pic_info .pic .img img {
+    display: block;
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.product_main .pic_info .pic .big_pic {
+    border: 1px solid #f5f5f5;
+    position: absolute;
+    left: 320px;
+    top: 0;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    display: none;
+    background: #fff;
+    text-align: center;
+}
+
+.product_main .pic_info .pic .cool_label_80 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+.product_main .pic_info .sale_lable {
+    margin-top: 10px;
+    position: relative;
+}
+
+.product_main .pic_info .sale_lable img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product_main .pic_info .sale_lable .cuxiao_word {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 48px;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 700;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.product_main .pic_info .pic .icon_online,
+.product_main .pic_info .pic .icon_online:hover {
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url(../images/icon_online.png) no-repeat 0 0;
+    height: 36px;
+    width: 68px;
+    line-height: 36px;
+    text-align: left;
+    color: #5e4545;
+    padding-left: 14px;
+    text-decoration: none;
+}
+
+.product_main .pic_info .sale_lable .cuxiao_word {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 48px;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 700;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.product_main .pic_info .dp_slide {
+    width: 320px;
+    margin: 8px auto 0;
+    position: relative;
+}
+
+.product_main .pic_info .dp_slide .mainimg_fy,
+.product_main .pic_info .dp_slide .mainimg_fy:hover {
+    position: absolute;
+    height: 56px;
+    width: 14px;
+    top: 0;
+    background: #969696 url(../images/product_sprites.png) no-repeat 0 0;
+}
+
+.product_main .pic_info .dp_slide .next,
+.product_main .pic_info .dp_slide .next:hover {
+    right: 0;
+    background-position: -15px 0;
+}
+
+.product_main .pic_info .dp_slide_box {
+    width: 295px;
+    height: 56px;
+    margin-left: 14px;
+    overflow: hidden;
+}
+
+.product_main .pic_info .dp_slide ul li {
+    float: left;
+    margin-right: 3px;
+    width: 56px;
+    height: 56px;
+}
+
+.product_main .pic_info .dp_slide ul a,
+.product_main .pic_info .dp_slide ul a:hover {
+    display: block;
+    border: 1px solid #fff;
+    width: 54px;
+    height: 54px;
+    overflow: hidden;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.product_main .share_div {
+    padding-top: 5px;
+    position: relative;
+}
+
+.product_main .share_div .share_icon {
+    float: left;
+}
+
+.product_main .share_div a.btn_fxd {
+    height: 26px;
+}
+
+.product_main .share_div .btn_sjf,
+.product_main .share_div a,
+.product_main .share_div a:hover {
+    padding-right: 20px;
+    color: #969696;
+    float: left;
+    margin-top: 4px;
+}
+
+.product_main .share_div .share_icon ul {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.product_main .share_div .btn_sjf i {
+    background-position: -15px -60px;
+}
+
+.product_main .share_div a.btn_scsp,
+.product_main .share_div a.btn_scsp:hover {
+    padding-right: 0;
+}
+
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.masks {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10011;
+}
+
+.product_main .show_info {
+    float: left;
+    width: 860px;
+    font: 12px Verdana, Simsun;
+    color: #646464;
+}
+
+.product_main .sale_box {
+    line-height: 24px;
+    padding: 0 0 0 10px;
+    background: url(../images/sale_box_bg.png) repeat-y 670px 0;
+    margin-top: 5px;
+}
+
+.product_main .sale_box .sale_box_left {
+    width: 630px;
+    float: left;
+}
+
+.product_main .name_info {
+    font-family: Verdana, "Microsoft Yahei";
+    font-weight: 400;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 0 6px 12px 0;
+}
+
+.product_main .name_info h1 {
+    line-height: 24px;
+    max-height: 48px;
+    overflow: hidden;
+    color: #323232;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.product_main .name_info h2 {
+    padding-top: 6px;
+    max-height: 96px;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.product_main .sale_box .messbox_info .t1 {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.product_main .sale_box .messbox_info .pinglun {
+    clear: both;
+}
+
+.product_main .sale_box .price_info {
+    background-color: #fcfaf7;
+    padding: 0 0 0 10px;
+    margin: 6px 0 0 -10px;
+    line-height: 24px;
+    position: relative;
+    width: 630px;
+    z-index: 6666;
+}
+
+.price_info .price_ph {
+    float: right;
+    color: #ff2832;
+    padding: 0 24px 0 10px;
+    background: url(../images/product_sprites.png) no-repeat right -973px;
+    position: relative;
+    margin-top: 3px;
+}
+
+.price_info .t {
+    color: #8f8f8f;
+    font-weight: 400!important;
+    font-size: 12px!important;
+}
+
+.price_info .price_ph .pr {
+    font-size: 26px;
+}
+
+.price_info .yen {
+    font: 12px verdana;
+}
+
+.price_info .price_ph .price_ph_erwei {
+    display: none;
+    position: absolute;
+    border: 1px solid #e6e6e6;
+    padding: 13px 7px 7px;
+    background: #fff;
+    bottom: -133px;
+    right: 10px;
+}
+
+.price_info .price_ph .price_ph_pintuan {
+    display: none;
+    position: absolute;
+    padding: 0 9px 9px;
+    background: #fc0f3d;
+    border-radius: 10px;
+    top: 60px;
+    right: 0;
+    line-height: 0;
+}
+
+.price_info .price_ph .price_ph_pintuan .close {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/close_png2.png) center center no-repeat;
+    overflow: hidden;
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    cursor: pointer;
+}
+
+.price_info .price_ph .price_ph_pintuan p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 42px;
+    width: 130px;
+    letter-spacing: -1px;
+}
+
+.price_info .price_pc {
+    float: left;
+    padding-bottom: 0;
+}
+
+.price_info .price_pc .price_d {
+    font-size: 26px;
+    color: #e52222;
+}
+
+.price_info .t .price_down_remind {
+    margin-left: 10px;
+}
+
+.price_info .price_pc .price_zhe {
+    color: #e52222;
+    height: 49px;
+    display: flex;
+    align-items: flex-end;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+.price_info .price_e {
+    float: left;
+    color: #214c90;
+    font-size: 26px;
+    padding: 3px 5px 7px;
+    margin-left: 20px;
+}
+
+#mina_img_wei {
+    float: right;
+    width: 270px;
+    min-height: 100px;
+}
+
+.product_main .sale_box .before_user_price {
+    color: #618fff;
+    font-size: 14px;
+}
+
+.product_main .sale_box .new_user_price {
+    background-color: #fcfaf7;
+    margin-left: -10px;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: #969696;
+    padding: 0 0 0 10px;
+    float: left;
+    width: 49%;
+}
+
+.product_main .sale_box .lingquan_info {
+    margin-top: -1px;
+    padding: 0 0 7px;
+    background: #fff;
+    position: relative;
+}
+
+.product_main .sale_box .cuxiao_info {
+    padding: 5px 0 7px;
+    border-bottom: 1px dotted #d6d6d6;
+    clear: both;
+}
+
+.product_main .sale_box .area_info .right,
+.product_main .sale_box .cuxiao_info .right {
+    float: left;
+    width: 562px;
+    color: #646464;
+}
+
+.product_main .sale_box .cuxiao_info .right b {
+    float: left;
+    background-color: #f66;
+    color: #fff;
+    font-weight: 400;
+    padding: 0 6px;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 3px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.product_main .sale_box .cuxiao_info .right .rule06 {
+    width: 465px;
+}
+
+.product_main .sale_box .cuxiao_info .right .rule {
+    float: left;
+    padding-left: 10px;
+}
+
+.product_main .sale_box .cuxiao_info .right .checkboxa,
+.product_main .sale_box .cuxiao_info .right .checkboxa:hover {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    float: none;
+    z-index: 66;
+}
+
+.product_main .sale_box .cuxiao_info .right .jia_gou_e,
+.product_main .sale_box .cuxiao_info .right .jia_gou_e:hover {
+    border: 1px dotted #d7d7d7;
+    color: #646464;
+    height: 22px;
+    font: 12px/22px Verdana, simsun;
+    padding: 0 8px 0 18px;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.product_main .sale_box .cuxiao_info .right .rule04 {
+    width: 490px;
+}
+
+.product_main .sale_box .cuxiao_info .right .rule03 {
+    width: 502px;
+}
+
+.product_main .sale_box .cuxiao_info .right .text {
+    margin-right: 10px;
+}
+
+.product_main .sale_box .cuxiao_info .right .xuan_gou_hover {
+    background-position: right -363px;
+}
+
+.product_main .sale_box .cuxiao_info .right .xuan_gou {
+    color: #969696;
+    padding-right: 14px;
+    background: url(../images/product_sprites.png) no-repeat right -203px;
+}
+
+.product_main .sale_box .cuxiao_info .right a {
+    display: inline-block;
+}
+
+.product_main .sale_box .cuxiao_info .right .jia_gou_info .tab {
+    position: absolute;
+    top: 0;
+    height: 8px;
+    right: 0;
+    top: -14px;
+    overflow: hidden;
+}
+
+.product_main .sale_box .cuxiao_info .right .jia_gou_info .tab li.now {
+    background-color: #ff7d82;
+}
+
+.product_main .sale_box .cuxiao_info .right .jia_gou_info .tab li {
+    float: left;
+    font-size: 0;
+    background-color: #e5e5e5;
+    cursor: pointer;
+    margin: 0 0 0 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+}
+
+.subtract_remind .icon-tanhao- {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.product_wrapper i {
+    font-style: normal;
+}
+
+.icon-tanhao-:before {
+    content: "\e6b9";
+}
+
+.product_wrapper i {
+    font-style: normal;
+}
+
+.subtract_remind .icon-tanhao- {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.product_main .sale_box .area_info {
+    padding-top: 8px;
+}
+
+.product_main .sale_box .area_info .right,
+.product_main .sale_box .cuxiao_info .right {
+    float: left;
+    width: 562px;
+    color: #646464;
+}
+
+.product_main .sale_box .area_info {
+    padding-top: 8px;
+}
+
+.product_main .sale_box .choose_xilie {
+    border-bottom: 0;
+    padding: 5px 0 0;
+}
+
+.product_main .sale_box .area_info .right,
+.product_main .sale_box .cuxiao_info .right {
+    float: left;
+    width: 562px;
+    color: #646464;
+}
+
+.product_main .sale_box .area_info .time b {
+    padding: 0;
+}
+
+.product_main .sale_box .choose_xilie .right .list_e {
+    width: 562px;
+}
+
+.product_main .sale_box .cuxiao_info .right .list_e {
+    float: left;
+    width: 460px;
+}
+
+.product_main .sale_box .buy_box {
+    padding: 30px 0 35px;
+}
+
+.product_main .sale_box .buy_box .num {
+    float: left;
+    height: 34px;
+    border: 1px solid #e9e9e9;
+    width: 38px;
+    padding-right: 23px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.product_main .sale_box .buy_box .num input {
+    width: 38px!important;
+    height: 32px;
+    line-height: 32px;
+    border: 0;
+    background: #fff;
+    text-align: center;
+}
+
+.product_main .sale_box .buy_box .num .num_add {
+    background-position: -37px 0;
+    top: 0;
+}
+
+.product_main .sale_box .buy_box .num a,
+.product_main .sale_box .buy_box .num a:hover {
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 23px;
+    height: 17px;
+    background-image: url(../images/product_sprites.png);
+    background-repeat: no-repeat;
+    background-color: #646464;
+    margin-left: 6px;
+}
+
+.btn i.cart {
+    float: left;
+    width: 20px;
+    height: 19px;
+    background: url(../images/product_sprites.png) no-repeat -40px -35px;
+    margin: 9px 4px 0 0;
+}
+
+.pop_fenqi {
+    display: none;
+    border: 1px solid #0096d2;
+    width: 387px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    position: absolute;
+    font-size: 12px;
+    color: #646464;
+    top: -200px;
+    left: 10px;
+}
+
+.pop_fenqi h3 {
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    font: 14px/40px "Microsoft Yahei";
+    padding: 0 0 0 12px;
+}
+
+.pop_fenqi .fenqi_info {
+    width: 387px;
+    overflow: hidden;
+}
+
+.product_main .sale_box .buy_box .text {
+    color: #969696;
+    clear: both;
+    line-height: 20px;
+    width: 630px;
+    overflow: hidden;
+}
+
+.pop_fenqi .text {
+    padding: 12px 0 0 12px;
+    color: #969696;
+}
+
+.btn_pop_click {
+    z-index: 8888;
+    position: relative;
+}
+
+.btn_pop_click .btn_yaoqing {
+    display: none;
+    width: 100px;
+    height: 78px;
+    border: 1px solid #ff6400;
+    background: #fff;
+    position: absolute;
+    left: 10px;
+    top: -88px;
+    padding: 9px 0 0 12px;
+    color: #646464;
+    font: 12px/22px "Microsoft Yahei";
+}
+
+.btn_pop_click .btn_yaoqing span {
+    display: block;
+}
+
+.btn_pop_click .btn_yaoqing a,
+.btn_pop_click .btn_yaoqing a:hover {
+    float: left;
+    width: 38px;
+    height: 38px;
+    background: url(../images/share_icon02.png) no-repeat 0 0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 120px;
+    margin: 5px 10px 0 0;
+}
+
+.product_main .show_info a,
+.product_main .show_info a:hover {
+    color: #1a66b3;
+}
+
+.pro_masks {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10011;
+}
+
+.pro_masks .masks_bg {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: .2;
+}
+
+.pro_masks .pop_lingquan {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -331px;
+    margin-top: -227px;
+}
+
+.pop_lingquan {
+    width: 660px;
+    font: 12px "Microsoft Yahei", Verdana;
+}
+
+.pc_daoliu_cloce_div {
+    width: 398px;
+    margin: auto;
+    height: 24px;
+}
+
+.pc_daoliu_cloce_img {
+    width: 25px;
+    float: right;
+    margin-right: 85px;
+}
+
+.pc_cartshop_daoliu_div1 {
+    background: url(http://img62.ddimg.cn/2019/8/16/201908161533271384.png) no-repeat;
+    width: 360px;
+    height: 226px;
+    margin: auto;
+}
+
+.pc_cartshop__img {
+    width: 120px;
+    margin: auto;
+    padding-top: 102px;
+    padding-left: 2px;
+}
+
+.pc_cartshop_daoliu_div2 {
+    margin: auto;
+    position: relative;
+    z-index: 100;
+    top: -17px;
+    background: url(https://img60.ddimg.cn/assets/pc_image/minaAttract-product-scan.png) no-repeat;
+    width: 322px;
+    height: 166px;
+}
+
+.pc_shopping_button {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #C75B02;
+    text-align: center;
+    line-height: 14px;
+    position: relative;
+    top: 140px;
+    cursor: pointer;
+}
+
+.product_main .service_more {
+    float: left;
+    width: 180px;
+    padding-left: 10px;
+    margin-top: 0;
+    margin-left: 29px;
+    font-family: Simsun, Verdana;
+}
+
+.narrow_dang {
+    display: none;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    left: -34px;
+    top: -1px;
+    position: absolute;
+}
+
+.product_main .show_info a,
+.product_main .show_info a:hover {
+    color: #1a66b3;
+}
+
+.narrow_dang a,
+.narrow_dang a:hover {
+    display: block;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+}
+
+.product_wrapper a {
+    text-decoration: none;
+}
+
+.product_main .service_more .service_more_info {
+    border-top: 1px solid #f5f5f5;
+}
+
+.product_main .service_more .logo_shang img {
+    display: block;
+    width: 180px;
+    height: 60px;
+}
+
+.product_main .service_more .title {
+    line-height: 18px;
+    padding: 10px 0 8px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.product_main .service_more .title_name {
+    display: block;
+    padding-top: 6px;
+    clear: both;
+}
+
+.product_main .service_more .title .dang {
+    background-position: 0 -230px;
+}
+
+.product_main .service_more .title .icon {
+    float: left;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    background-image: url(../images/product_sprites.png);
+    background-repeat: no-repeat;
+    margin: 1px 5px 0 0;
+}
+
+.product_main .service_more .title .dang_red {
+    color: #ff2832;
+    float: left;
+}
+
+.shop_score_box {
+    color: #969696;
+    background: #fff;
+    margin-top: -1px;
+    border-bottom: 1px dotted #ccc;
+    position: relative;
+    z-index: 888;
+}
+
+.product_main .service_more .fuwu {
+    padding: 3px 0 6px;
+}
+
+.product_main .service_more .fuwu li {
+    float: left;
+    width: 90px;
+    height: 26px;
+    line-height: 26px;
+    color: #855758;
+    position: relative;
+    z-index: 100;
+}
+
+.product_main .service_more .fuwu li i {
+    float: left;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    background-image: url(../images/product_sprites.png?v=);
+    background-repeat: no-repeat;
+    margin: 3px 3px 0 0;
+}
+
+.product_main .service_more .fuwu li.zpbz i {
+    background-position: -20px -250px;
+}
+
+.product_wrapper i {
+    font-style: normal;
+}
+
+.server_rightdiv {
+    border-top: 1px dotted #ccc;
+    position: relative;
+    padding-top: 10px;
+    background: #fff;
+    margin-bottom: -1px;
+}
+
+.server_rightdiv .s_one {
+    height: 30px;
+}
+
+.server_rightdiv .live800 {
+    float: left;
+}
+
+.server_rightdiv .server_dj {
+    float: left;
+    width: 70px;
+    height: 27px;
+    overflow: hidden;
+    background: url(../images/service_dj.gif) no-repeat 0 0;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.product_main .service_more .goto_shop {
+    border-top: 1px dotted #ccc;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.product_main .service_more .goto_shop a,
+.product_main .service_more .goto_shop a:hover {
+    width: 74px;
+    height: 22px;
+    line-height: 22px;
+    background: #fafafa;
+    border: 1px solid #ededed;
+    margin: 0 4px;
+    display: inline-block;
+    border-radius: 3px;
+    color: #505050;
+    text-decoration: none;
+    text-align: center;
+}
+
+.product_main .service_more .goto_shop a,
+.product_main .service_more .goto_shop a:hover {
+    width: 74px;
+    height: 22px;
+    line-height: 22px;
+    background: #fafafa;
+    border: 1px solid #ededed;
+    margin: 0 4px;
+    display: inline-block;
+    border-radius: 3px;
+    color: #505050;
+    text-decoration: none;
+    text-align: center;
+}
+
+.product_main .service_more .shang_other.book_product_right {
+    padding-bottom: 0;
+}
+
+.product_main .service_more .shang_other {
+    border-top: 1px solid #f5f5f5;
+    width: 180px;
+    padding: 10px 0 35px;
+}
+
+.product_main .service_more .shang_other li.shang_other_all {
+    border-top: 0;
+    background-color: #f5f5f5;
+    margin-bottom: -1px;
+    position: relative;
+}
+
+.product_main .service_more .shang_other li {
+    border-top: 1px dotted #ccc;
+    padding: 6px 0 6px 9px;
+}
+
+.product_main .service_more .shang_other li a,
+.product_main .service_more .shang_other li a:hover {
+    width: 90px;
+    height: 18px;
+    overflow: hidden;
+}
+
+.browser {
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.product_column {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.product_column .mbox_another {
+    margin: 0;
+}
+
+.product_column .mbox_another h3 {
+    width: 1200px;
+}
+
+.mbox_another h3 {
+    width: 970px;
+    height: 22px;
+    border-bottom: 1px solid #323232;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mbox_another h3 .title {
+    color: #323232;
+    font: 16px/22px "Microsoft Yahei";
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    bottom: -9px;
+    padding: 0 12px;
+}
+
+.mbox_another h3 .num {
+    color: #323232;
+    font: 14px/22px "Microsoft Yahei";
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background: #fff;
+    padding: 0 10px;
+}
+
+.mbox_another h3 .num b {
+    color: #969696;
+    font-weight: 400;
+}
+
+.product_column .mbox_another .bucket {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.mbox_another .bucket {
+    width: 970px;
+    position: relative;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.product_column .mbox_another .bucket .over {
+    width: 1102px;
+    margin: 0 0 0 34px;
+}
+
+.mbox_another .bucket .over {
+    width: 925px;
+    margin: 0 0 0 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.product_column .mbox_another .over li {
+    margin-right: 38px;
+}
+
+.mbox_another .over li {
+    float: left;
+    width: 152px;
+    overflow: hidden;
+    margin-right: 33px;
+    line-height: 20px;
+}
+
+.mbox_another .over .pic {
+    width: 152px;
+    height: 152px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.mbox_another .over .pic a img {
+    width: 150px;
+    height: 150px;
+}
+
+.product_wrapper .price_d {
+    color: #ff2832;
+}

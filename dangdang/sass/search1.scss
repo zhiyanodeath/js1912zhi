@@ -385,3 +385,97 @@ body .vspacer {
     padding: 4px 0 0 0;
     color: #787878;
 }
+
+
+/* ***************修改了*********** */
+
+.home_notice_r {
+    float: left;
+    width: 202px;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+}
+
+.home_notice_r_pic {
+    height: 194px;
+    width: 202px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.home_notice_r_pic a,
+.home_notice_r_pic img {
+    display: block;
+    width: 202px;
+    height: 195px;
+}
+
+.home_notice_gg {
+    width: 202px;
+    overflow: hidden;
+}
+
+.home_notice_gg .tab_aa {
+    border-top: 1px solid #e6e6e6;
+    height: 29px;
+    overflow: hidden;
+    width: 204px;
+}
+
+.home_notice_gg .tab_aa li.on {
+    background-color: #fff;
+    border-bottom: 0;
+    padding-bottom: 1px;
+}
+
+.home_notice_gg .tab_aa li {
+    margin-left: -1px;
+    float: left;
+    width: 101px;
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+    height: 28px;
+    background-color: #f0f0f0;
+    cursor: default;
+    font: 14px/29px "Microsoft Yahei";
+    text-align: center;
+    color: #646464;
+    overflow: hidden;
+}
+
+.home_notice_gg .tab_aa li a,
+.home_notice_gg .tab_aa li a:hover {
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home_notice_gg .tab_content_aa ul {
+    height: 130px;
+    width: 202px;
+    overflow: hidden;
+    padding-top: 6px;
+}
+
+.home_notice_gg .tab_content_aa li {
+    line-height: 25px;
+    padding-left: 10px;
+    width: 183px;
+    height: 25px;
+    background: url(http://img60.ddimg.cn/upload_img/00111/home/home_sprite_1507.png) no-repeat 10px -188px;
+    overflow: hidden;
+}
+
+.home_notice_gg .tab_content_aa li a,
+.home_notice_gg .tab_content_aa li a:hover {
+    display: block;
+    padding-left: 10px;
+    color: #646464;
+    font-family: "Microsoft Yahei";
+}
+
+.home_notice_gg a,
+.home_notice_gg a:hover {
+    color: #646464;
+    text-decoration: none;
+}
